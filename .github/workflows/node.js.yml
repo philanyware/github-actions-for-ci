@@ -6,6 +6,7 @@ name: Node CI
 on: [push]
 
 jobs:
+  build:
       - uses: actions/upload-artifact@master
         with:
           name: webpack artifacts
